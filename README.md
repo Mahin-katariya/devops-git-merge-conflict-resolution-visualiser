@@ -55,3 +55,13 @@ If you prefer running the Node servers natively for development:
 3. Click the **Simulate Merge** button.
 4. If the code yields a clean merge, a success banner displays the final cleanly stitched output.
 5. If the code results in a conflict, the **Interactive Conflict Resolution** visualizer will appear. It cleanly extracts the context, incoming changes, and current changes into side-by-side syntax-highlighted panes—giving you 1-click resolution buttons to seamlessly stitch your Git branch history back together, and a manual editor for edge-cases!
+
+---
+
+## 🔮 Future Scope & Enhancements
+MergeMate is built as a highly extensible platform. Future iterations of this tool will focus heavily on real-world Git tracking and DevOps analytics:
+
+- **Direct Live Repository Connections**: Authenticate and connect live repositories directly using GitHub OAuth tokens, allowing you to pull real-time remote branches and staging data directly into the Sandbox resolving environment.
+- **Commit History Tracking**: Parse and reconstruct your remote branch's commit history automatically, so you can trace precisely what sequence of commits caused an overlap.
+- **Audit Logging for Merges**: Create a separate, specialized centralized log exclusively tracking merge events and granular merge conflicts, decoupled from standard application logs.
+- **Conflict Hotspot Analytics**: Track exactly how many times conflicts arise over periods of time. Utilizing native monitoring tools, the dashboard will actively monitor and alert developers about which teammates commonly run into code collisions and which core modules act as frequent structural hotspots.
